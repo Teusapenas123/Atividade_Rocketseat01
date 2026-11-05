@@ -1,0 +1,126 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  color: #333333;
+  background-color: #ffffff;
+  line-height: 1.6;
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+/* topo */
+header {
+  text-align: center;
+  padding: 60px 0 30px 0;
+}
+
+.chamada {
+  font-size: 14px;
+  font-weight: 700;
+  color: #e1624f;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  margin-bottom: 10px;
+}
+
+header h1 {
+  font-size: 56px;
+  color: #0b4f6c;
+  line-height: 1.1;
+  margin-bottom: 10px;
+}
+
+.subtitulo {
+  font-size: 20px;
+  font-weight: 400;
+  font-style: italic;
+}
+
+/* introducao */
+.introducao p {
+  margin-bottom: 30px;
+}
+
+figure img {
+  width: 100%;
+  height: 375px;
+  object-fit: cover;
+  border-radius: 28px;
+}
+
+figcaption {
+  margin-top: 12px;
+  text-align: center;
+  font-size: 14px;
+  font-style: italic;
+  color: #666666;
+}
+
+/* linha de divisao */
+.divider {
+  width: 100%;
+  height: 1px;
+  margin: 50px 0;
+  background-color: #d9d9d9;
+}
+
+/* atracoes */
+.atracoes h2 {
+  font-size: 28px;
+  color: #0b4f6c;
+  line-height: 1.3;
+  margin-bottom: 15px;
+}
+
+.atracoes > p {
+  margin-bottom: 40px;
+}
+
+.atracoes article {
+  margin-bottom: 40px;
+}
+
+.atracoes img {
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
+  border-radius: 28px;
+  margin-bottom: 15px;
+}
+
+.atracoes h3 {
+  font-size: 22px;
+  color: #e1624f;
+  margin-bottom: 8px;
+}
+
+/* rodape */
+footer {
+  text-align: center;
+  font-size: 14px;
+  color: #666666;
+  border-top: 1px solid #d9d9d9;
+  padding: 25px 0;
+  margin-top: 20px;
+}
+
+/* celular */
+@media (max-width: 600px) {
+  header h1 {
+    font-size: 38px;
+  }
+
+  figure img {
+    height: 250px;
+  }
+
+  .atracoes img {
+    height: 220px;
+  }
+}
